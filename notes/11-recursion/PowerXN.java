@@ -74,10 +74,10 @@ public class PowXNStudyGuide {
     // Drawback: with n up to ~2^31, this loop is far too slow.
     public double myPowBruteForce(double x, int n) {
 
-        long power = n; // widen to long BEFORE negating, to safely handle Integer.MIN_VALUE
+        long power = n; // widen to long BEFORE negating, to safely handle Integer.MIN_VALUE -> int  = 2147483647 but Integer = 2147483648
 
         if (power < 0) {
-            x = 1 / x;
+            x = 1 / x;  // Mathematically -> a⁻ⁿ = 1 / aⁿ
             power = -power;
         }
 
