@@ -72,6 +72,7 @@ ProblemNameLC<number>.java) structured exactly as follows:
 Requirements:
 - The file must compile and run as-is (single public class matching the filename, proper
   imports, no pseudocode).
+- Include the common pattern keywords in each approach.
 - Keep code clean and idiomatic for Java. Avoid unnecessary libraries unless they're the
   idiomatic/standard way to solve it.
 - Prioritize comments that explain WHY over comments that restate WHAT the code does.
