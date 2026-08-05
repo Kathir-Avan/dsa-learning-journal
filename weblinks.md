@@ -6,3 +6,4 @@ jsoncrack.com
 levels.fy for salary check
 describe.app for multi ide
 algomaster.io
+exercism.org
